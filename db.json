@@ -13,7 +13,7 @@
       "name": "Printer",
       "price": 300,
       "quantity": 100,
-      "selected": true,
+      "selected": false,
       "available": true
     },
     {
@@ -21,7 +21,7 @@
       "name": "Smartphone",
       "price": 1200,
       "quantity": 100,
-      "selected": true,
+      "selected": false,
       "available": true
     },
     {
@@ -33,12 +33,12 @@
       "id": 4
     },
     {
-      "id": 5,
-      "name": "GPS",
-      "price": 0,
-      "quantity": 0,
+      "name": "Asus",
+      "price": "1000",
+      "quantity": "10",
       "selected": false,
-      "available": true
+      "available": true,
+      "id": 6
     }
   ]
 }
