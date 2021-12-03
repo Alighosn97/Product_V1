@@ -18,7 +18,7 @@ export class ProductEditComponent implements OnInit {
   ,private fb : FormBuilder) {
     this.productId=activatedRoute.snapshot.params.id;
   }
-
+//test dd
   ngOnInit(): void {
     this.productService.getProduct(this.productId).subscribe(data=>{
       this.productFormGroup=this.fb.group({
