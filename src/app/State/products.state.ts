@@ -6,7 +6,10 @@ export enum ProductActionType{
   NEW_PRODUCT="[Product] New product",
   SELECT_PRODUCT="[Product] Select product",
   EDIT_PRODUCT="[Product] edit product",
-  DELETE_PRODUCT="[Product] Delete product"
+  DELETE_PRODUCT="[Product] Delete product",
+PRODUCT_ADDED="[Product] add new product",
+PRODUCT_EDIT="[Product] edit new product"
+
 }
 export interface ActionEvent {
   type : ProductActionType,
